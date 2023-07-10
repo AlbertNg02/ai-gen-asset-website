@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "media_displays",
+  "info": {
+    "singularName": "media-display",
+    "pluralName": "media-displays",
+    "displayName": "media-display",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "src": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "prompt": {
+      "type": "text"
+    },
+    "negativePrompt": {
+      "type": "text"
+    }
+  }
+}
